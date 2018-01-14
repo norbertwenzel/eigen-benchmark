@@ -6,6 +6,8 @@ For the seemingly simple case of transforming a list (stored as `Eigen::Matrix`)
 
 This benchmark has been created to illustrate the difference after the code has been changed in a more convoluted real program, that reads millions of 3d points, transforms them as done in this benchmark and then works with these transformed points. The effects of changing the implementation were consistently measurable and led to this minimal benchmark.
 
+This repository contains the code for a [corresponding mailinglist thread](https://listengine.tuxfamily.org/lists.tuxfamily.org/eigen/2018/01/msg00013.html).
+
 ## Code
 
 Essentially the following code is tested and compared:
